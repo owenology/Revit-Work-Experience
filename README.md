@@ -3,7 +3,7 @@
 ## My time there was between 25/11/2025 - 10/11/2026
 
 <details open>
-<summary><h2 Exact Dates:></summary>
+<summary><h2> Exact Dates:</h2></summary>
 
 - Tuesday 25th November 2025
 - Tuesday 2nd December 2025
