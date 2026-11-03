@@ -1,14 +1,16 @@
 # Description of my Work Experience for an Engineering Consultancy:
 ### This was Work Experience I did for my [T-Level Course](https://qualifications.pearson.com/en/qualifications/t-levels/digital-software-development.html)
-#### My time there was between 25/11/2025 - 10/11/2026. [Exact Dates](#dates)
+#### I attended one day a week from November 2025 - 10th of November 2026, 30 days in total. ([full list of dates](#dates))
 
 #### Description of the company and my job:
 
-During my workplacement for my course I worked at a small engineering consultancy that designs the mechanical and electrical systems inside buildings, such as heating, ventilation, air conditioning, lighting and power, and water services. The company works with architects, contractors and clients to plan these systems at the design stage of construction projects.
+During my work placement for my course I worked at an engineering consultancy that designs the mechanical and electrical systems inside buildings, such as heating, ventilation, air conditioning, lighting and power, and water services. The company works with architects, contractors and clients to plan these systems at the design stage of construction projects. 
 
-The people working their utilised a piece of software called [Revit](https://www.autodesk.com/uk/products/revit/overview) (by AutoDesk).
+The people working there utilised a piece of software called [Revit](https://www.autodesk.com/uk/products/revit/overview) (by AutoDesk).
 
-My job was to create something called "[add-ins](https://revizto.com/resources/blog/revit-addins-addons-plugins)" for Revit, to make people's job more quick and efficient.
+My job was to create something called "[add-ins](https://revizto.com/resources/blog/revit-addins-addons-plugins)" for Revit, to help the engineers work faster by automating repetitive tasks.
+
+Essentially, an add-in can turn a longer task (requiring multiple clicks / edits) into a much shorter one (making it a couple clicks / more efficient).
 
 | # | Entry |
 |:-:|-------|
@@ -18,7 +20,7 @@ My job was to create something called "[add-ins](https://revizto.com/resources/b
 <details open>
 <summary><h2 id="start">Initial Work:</h2></summary>
 
-Since I was JUST getting into Revit, I started by 
+Since I was just getting into Revit, I started by 
 
 </details>
 
