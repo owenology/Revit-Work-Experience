@@ -35,7 +35,7 @@ Entering someone's codebase is quite overwhelming I discovered, especially when 
     <img src="images/CopyParameters.png"
          alt="The Copy Parameters add-in window in Revit"
          title="Click to view full size"
-         width="700">
+         width="500">
   </a>
   <br>
   <em>My first Revit add-in, Copy Parameters (click to enlarge)</em>
