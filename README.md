@@ -31,14 +31,14 @@ Explanation of what Parameters are:
 Entering someone's codebase is quite overwhelming I discovered, especially when you aren't an engineer who has to create ontop of this codebase for an engineering app. However, I did persevere after exploring through the pre-existing code, as well as Revit's API and forums related to Revit.
 
 <p align="center">
-  <img src="images/CopyParameters.png"
-       alt="My first Revit Add-in, Copy Parameters"
-       title="My First Revit Add-in"
-       width="500">
+  <a href="images/CopyParameters.png">
+    <img src="images/CopyParameters.png"
+         alt="The Copy Parameters add-in window in Revit"
+         title="Click to view full size"
+         width="700">
+  </a>
   <br>
-  <em>My first Revit Add-in, Copy Parameters</em>
-</p>
-  <em>My first Revit Add-in, Copy Parameters</em>
+  <em>My first Revit add-in, Copy Parameters (click to enlarge)</em>
 </p>
 
 </details>
