@@ -28,11 +28,11 @@ Explanation of what Parameters are:
 > Each object in Revit (whether a duct, a light fixture, a pipe, or a room) will have parameters, which are named fields of information. Some of these are part of the software itself, such as Length, Level or System Type. Other data fields include those created by the company, such as Asset Code, Zone, Maintenance Category or Fire Rating. Engineers fill these in so they can appear in schedules, tags and drawings, and be handed over to clients.
 > Doing this one by one will take a lot of time, so a Copy Parameters add-in would allow for more time efficiency in the office.
 
-Entering someone's codebase is quite overwhelming I discovered, especially when you aren't an engineer who has to create ontop of this codebase for an engineering app. However, I did persevere after exploring through the pre-existing code, as well as Revit's API and forums related to Revit.
+Entering someone's codebase is quite overwhelming I discovered, especially when you aren't an engineer who has to create ontop of this pre-existing code for the engineer's app. However, I did persevere after exploring through the pre-existing code, as well as Revit's API and forums related to Revit.
 
 <p align="center">
-  <a href="images/CopyParameters.png">
-    <img src="images/CopyParameters.png"
+  <a href="images/CopyParameters_labelled.png">
+    <img src="images/CopyParameters_labelled.png"
          alt="The Copy Parameters add-in window in Revit"
          title="Click to view full size"
          width="500">
