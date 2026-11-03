@@ -1,6 +1,6 @@
 # Description of my Work Experience for a Company utilising Revit:
 ### This was Work Experience I did for my [T-Level Course](https://qualifications.pearson.com/en/qualifications/t-levels/digital-software-development.html)
-[My time there was between 25/11/2025 - 10/11/2026](#dates)
+#### My time there was between 25/11/2025 - 10/11/2026. [Exact Dates](#dates)
 
 
 | # | Entry |
