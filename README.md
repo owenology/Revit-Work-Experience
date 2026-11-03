@@ -1,9 +1,23 @@
 # Description of my Work Experience for a Company utilising Revit:
+### This was Work Experience I did for my [T-Level Course](https://qualifications.pearson.com/en/qualifications/t-levels/digital-software-development.html)
+[My time there was between 25/11/2025 - 10/11/2026](#dates)
 
-## [My time there was between 25/11/2025 - 10/11/2026](#dates)
+
+| # | Entry |
+|:-:|-------|
+| 1 | [Initial Work](#start) |
+| 2 | []() |
 
 <details open>
-<summary><h2 id="dates"> Exact Dates:</h2></summary>
+<summary><h2 id="start">Initial Work:</h2></summary>
+
+
+
+</details>
+
+
+<details>
+<summary><h3 id="dates">Exact Dates:</h3></summary>
 
 - Tuesday 25th November 2025
 - Tuesday 2nd December 2025
