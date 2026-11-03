@@ -17,6 +17,7 @@ Essentially, an add-in can turn a longer task (requiring multiple clicks / edits
 | 1 | [Initial Work](#start) |
 | 2 | []() |
 
+
 > **Note:** I cannot show my code for these add-ins due to a Non-Disclosure Agreement I signed, however I am allowed to show off pictures of each piece of work I did and explain what they do (I was told I was allowed to do this by the person who owns the codebase for these add-ins).
 
 <details open>
@@ -25,11 +26,13 @@ Essentially, an add-in can turn a longer task (requiring multiple clicks / edits
 Since I was just getting into Revit, I started by developing A "Copy Parameters" add-in for Revit. 
 
 **Explanation of what Parameters are:**
+
 Each object in Revit (whether a duct, a light fixture, a pipe, or a room) will have parameters, which are named fields of information. Some of these are part of the software itself, such as Length, Level or System Type. Other data fields include those created by the company, such as Asset Code, Zone, Maintenance Category or Fire Rating. Engineers fill these in so they can appear in schedules, tags and drawings, and be handed over to clients.
 
 Doing this one by one will take a lot of time, so a Copy Parameters add-in would allow for more time efficiency in the office.
 
 **What I learned:**
+
 Working in someone else's codebase was overwhelming at first, especially one built for engineering software I had never used.
 
 However, I did eventually persevere after exploring through the pre-existing code, as well as Revit's API and forums related to Revit.
