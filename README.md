@@ -15,7 +15,7 @@ Essentially, an add-in can turn a longer task (requiring multiple clicks / edits
 | # | Entry |
 |:-:|-------|
 | 1 | [Initial Work](#start) |
-| 2 | []() |
+| 2 | [Filter Manager](#filter_man) |
 
 
 > **Note:** I cannot show my code for these add-ins due to a Non-Disclosure Agreement I signed, however I am allowed to show off pictures of each piece of work I did and explain what they do (I was told I was allowed to do this by the person who owns the codebase for these add-ins).
@@ -52,10 +52,63 @@ However, I did eventually persevere after exploring through the pre-existing cod
 2. **Select All / Deselect All**: ticks or clears every parameter at once.
 3. **Copy Value**: copies the values of the ticked parameters onto the target element(s).
 4. **Cancel**: closes the window without changing anything.
+</details>
+
+<details open>
+<summary><h2 id="filter_man">Filter Manager:</h2></summary>
+
+After I finished my work on "Copy Parameters", I was assigned to created a "Filter Manager".
+
+**Explanation of what a Filter is in Revit:**
+
+A filter solves visual clutter in a bust drawing, this is done by picking out objects that match a set of rules and changing how they look in a view.
+
+Each filter is made of two parts:
+
+- **Rules**: which objects the filter applies to. These are based on categories and parameters, for example "all Ducts where System Type equals Supply Air".
+- **Graphic overrides**: what happens to the matching objects in the view. They can be given a different colour, line style or transparency, or be hidden completely.
+
+For example, an engineer could make supply air ducts show in blue and extract air ducts in red, so the two systems can be told apart at a glance on a drawing.
+
+Filters are applied per view, so the same model can look different depending on who the drawing is for. Because the rules are based on parameters, the filters update automatically as the model changes: any new duct set to "Supply Air" will turn blue without anyone needing to colour it by hand.
+
+
+**Explanation of what the "Filter Manager" would consist of:**
+
+The Filter Manager (originally called the "Filter Generator") is an add-in that lets engineers set up and edit the filters inside Revit's View Templates from one window, instead of going through Revit's own menus filter by filter.
+
+A **View Template** is a saved set of display settings that can be applied to many views at once, so every drawing of the same type looks consistent. Filters are stored inside these templates, which means changing a filter's appearance normally means opening each template and editing every filter by hand.
+
+The Filter Manager works in these steps:
+
+1. **Choose a template**: The user selects the View Template Type and subsequently the specific template to be edited.
+2. **Choose a filter**: From the filters contained within the template, the user selects the specific filter (or rule) they wish to edit.
+3. **Match it to the company colour list**: The add-in searches for the filter name within an Excel file that contains the list of filter names used across the company, along with their corresponding RGB color values. The relevant color is displayed in a colored box, allowing the user to immediately see which color should be assigned to the filter.
+4. **View and edit the filter's settings**: The add-in retrieves the current filter settings from Revit and allows the user to adjust them, including:
+   - Foreground pattern and color
+   - Background pattern and color
+   - Line pattern, color, and weight
+   - Transparency
+   - Status (enabled/visible) as well as the display of foreground and background patterns
+5. **Apply to multiple filters**: the user can select several filters at once and save all of these settings to every one of them in a single action.
+
+1. **Select Template**: The user selects the View Template Type and subsequently the specific template to be edited.
+2. **Select Filter**: From the filters contained within the template, the user selects the specific filter (or rule) they wish to edit.
+3. **Cross-reference with the company-wide color list**: The add-in searches for the filter name within an Excel file that contains the list of filter names used across the company, along with their corresponding RGB color values. The relevant color is displayed in a colored box, allowing the user to immediately see which color should be assigned to the filter.
+4. **View and edit filter settings**: The add-in retrieves the current filter settings from Revit and allows the user to adjust them, including:
+   - Foreground pattern and color
+   - Background pattern and color
+   - Line pattern, color, and weight
+   - Transparency
+   - Status (enabled/visible) as well as the display of foreground and background patterns
+5. **Apply to multiple filters**: The user can select several filters simultaneously and apply settings to all of them in a single step.
+
+By combining information from Revit with data from an Excel file, the "Filter Manager" ensures that filter colors consistently adhere to company standards. Furthermore, it streamlines a time-consuming, repetitive process, reducing it to just a few mouse clicks.
+
+Because it combines information from both Revit and the Excel file, the Filter Manager keeps the filter colours consistent with the company's standards, and it turns a long, repetitive task into a few clicks.
 
 
 </details>
-
 
 <details>
 <summary><h3 id="dates">Exact Dates:</h3></summary>
