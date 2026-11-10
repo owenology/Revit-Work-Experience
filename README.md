@@ -2,14 +2,17 @@
 
 # Work Experience at an Engineering Consultancy:
 
-Work experience completed for my [T-Level in Digital Software Development](https://qualifications.pearson.com/en/qualifications/t-levels/digital-software-development.html), building add-ins for Autodesk Revit in **C#**.
+Work experience completed for my [T-Level in Digital Software Development](https://qualifications.pearson.com/en/qualifications/t-levels/digital-software-development.html) (2025-2027), building add-ins for Autodesk Revit in **C#**.
  
-| | |
+<div align="center">
+
 |---|---|
 | **Placement** | Engineering consultancy (building services: mechanical and electrical) |
 | **Software** | [Autodesk Revit](https://www.autodesk.com/uk/products/revit/overview) |
 | **Language** | C# |
 | **Attendance** | One day a week, November 2025 – 10th November 2026 ([30 days in total](#dates)) |
+
+</div>
 
 </div>
 
@@ -38,7 +41,7 @@ Essentially, an add-in can turn a longer task (requiring multiple clicks / edits
 
 
 <details open>
-<summary><h2 id=#1-copy-parameters">Copy Parameters:</h2></summary>
+<summary><h2 id=1-copy-parameters">Copy Parameters:</h2></summary>
 
 Since I was just getting into Revit, I started by developing A "Copy Parameters" add-in for Revit. 
 
@@ -136,6 +139,8 @@ _[back to top](#top)_
 <details>
 <summary><h3 id="dates">Exact Dates:</h3></summary>
 
+<div align="center">
+
 | Month | Tuesdays attended |
 |---|---|
 | November 2025 | 25th |
@@ -150,5 +155,8 @@ _[back to top](#top)_
 | October 2026 | 6th, 13th, 20th |
 | November 2026 | 3rd, 10th |
 
+</div>
+
 </details>
+
 _[back to top](#top)_
