@@ -60,6 +60,8 @@ However, I did eventually persevere after exploring through the pre-existing cod
 2. **Select All / Deselect All**: ticks or clears every parameter at once.
 3. **Copy Value**: copies the values of the ticked parameters onto the target element(s).
 4. **Cancel**: closes the window without changing anything.
+
+_[back to top](#top)_
 </details>
 
 <details open>
@@ -102,8 +104,24 @@ The Filter Manager works in these steps:
 
 By combining information from Revit with data from an Excel file, the "Filter Manager" ensures that filter colours consistently adhere to company standards. Furthermore, it streamlines a time-consuming, repetitive process, reducing it to just a few mouse clicks.
 
-_[back to top](#top)_
+**What I learned / did:**
 
+> **Note / Disclaimer:** I utilised AI to help create this add-in, being in once a week caused a bit of a struggle to learn Revit's API, and the only way I'd get this done in a reasonable timeframe (that'd keep me sane) in my personal opinion was to utilise AI, specifically ChatGPT.
+
+<p align="center">
+  <a href="images\fitler_manager_winform.png">
+    <img src="images\fitler_manager_winform.png"
+         alt="The Filter Manager add-in window in Revit"
+         title="Click to view full size"
+         width="500">
+  </a>
+  <br>
+  <em>The Filter Manager add-in, Copy Parameters (click to enlarge)</em>
+</p>
+
+
+
+_[back to top](#top)_
 </details>
 
 <details>
@@ -139,5 +157,6 @@ _[back to top](#top)_
 - Tuesday 20th October 2026
 - Tuesday 3rd November 2026
 - Tuesday 10th November 2026
+_[back to top](#top)_
 
 </details>
