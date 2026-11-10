@@ -53,13 +53,18 @@ Essentially, an add-in can turn a longer task (requiring multiple clicks / edits
 
 Since I was just getting into Revit, I started by developing A "Copy Parameters" add-in for Revit. 
 
-**Explanation of what Parameters are:**
+<details open>
+<summary><h3>Explanation of what Parameters are:</h3></summary>
 
 Each object in Revit (whether a duct, a light fixture, a pipe, or a room) will have parameters, which are named fields of information. Some of these are part of the software itself, such as Length, Level or System Type. Other data fields include those created by the company, such as Asset Code, Zone, Maintenance Category or Fire Rating. Engineers fill these in so they can appear in schedules, tags and drawings, and be handed over to clients.
 
 Doing this one by one will take a lot of time, so a Copy Parameters add-in would allow for more time efficiency in the office.
 
-**What I learned:**
+</details>
+
+<details open>
+<summary><h3>**What I learned:**</h3></summary>
+
 
 Working in someone else's codebase was overwhelming at first, especially one built for engineering software I had never used.
 
@@ -80,6 +85,8 @@ However, I did eventually persevere after exploring through the pre-existing cod
 2. **Select All / Deselect All**: ticks or clears every parameter at once.
 3. **Copy Value**: copies the values of the ticked parameters onto the target element(s).
 4. **Cancel**: closes the window without changing anything.
+
+</details>
 
 _[back to top](#top)_
 </details>
