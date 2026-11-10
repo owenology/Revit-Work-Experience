@@ -204,13 +204,14 @@ _[back to top](#top)_
 
 Windows Forms (**WinForms**) and Windows Presentation Foundation (**WPF**) are both Microsoft frameworks for building windows (the boxes, buttons, lists and text fields a user clicks on) for programs that run on Windows. Revit add-ins can use either one to show their windows.
 
-**WinForms** is the older of the two, released in 2002. Each window is built by dragging controls onto a design surface in Visual Studio, and every control is placed at a fixed position and size in pixels. It's quick and simple to use, but windows can look dated, don't resize well, and can appear blurry or squashed on high-resolution screens.
+- **WinForms** is the older of the two, released in 2002. Each window is built by dragging controls onto a design surface in Visual Studio, and every control is placed at a fixed position and size in pixels. It's quick and simple to use, but windows can look dated, don't resize well, and can appear blurry or squashed on high-resolution screens.
 
-**WPF** is the newer framework, released in 2006. Instead of fixed positions, the layout of a window is written in **XAML** (a markup language similar to HTML), which describes how controls are arranged relative to each other. The window can then stretch and scale cleanly to any size or screen. The look of the window is kept separate from the C# code that makes it work, and styles (colours, fonts, button designs) can be written once and shared across every window, a bit like CSS on a website.
+- **WPF** is the newer framework, released in 2006. Instead of fixed positions, the layout of a window is written in **XAML** (a markup language similar to HTML), which describes how controls are arranged relative to each other. The window can then stretch and scale cleanly to any size or screen. The look of the window is kept separate from the C# code that makes it work, and styles (colours, fonts, button designs) can be written once and shared across every window, a bit like CSS on a website.
 
 For example, a simple WPF button looks like this in XAML:
 
     <Button Content="Finish" Width="120" Style="{StaticResource PrimaryButtonStyle}" />
+
 
 <div align="center">
 
@@ -225,9 +226,50 @@ For example, a simple WPF button looks like this in XAML:
 
 </div>
 
-The add-ins in the codebase were originally built with WinForms. They were being converted to WPF so that every window shares the same modern design and works properly on any screen size.
+The add-ins in the codebase were originally built with WinForms. They were being converted to WPF so that every window shares the same modern design, to look more professional and not be such an eye-sore.
 
 </details>
+
+
+<details open>
+
+<details open>
+<summary><h3>What I learned / did:</h3></summary>
+
+> **Note / Disclaimer:** I utilised AI to help create this add-in, with the amount that needed to be converted AI, could only get this done on-time for me to complete this task and finish my placement at the same time.
+
+My inital task was to create a project I was given in WPF as opposed to what I was used to using (WinForms). 
+_(However this project itself fell through since I wouldn't have enough time to fully understand the in-and-outs of it, create and test it etc)._
+
+So, I began by using [Figma](https://www.figma.com/) to design what I think the WPF should look like:
+
+<p align="center">
+  <a href="images/figma+wpf/project_builder_figma.png">
+    <img src="images/figma+wpf/project_builder_figma.png"
+         alt="The Initial Figma Design"
+         title="My Initial Figma Design"
+         width="500">
+  </a>
+  <br>
+  <em>My first Figma Design.<br>(click to enlarge)</em>
+</p>
+
+This design was used more like a structure than a finalised design. I gave this To Claude, told it what each part should do and to make the colourscheme more professional-looking, but to keep its structure.
+This is what Claude produced:
+
+<p align="center">
+  <a href="images/figma+wpf/project_builder_wpf.png">
+    <img src="images/figma+wpf/project_builder_wpf.png"
+         alt="The Initial Figma Design"
+         title="My Initial Figma Design"
+         width="500">
+  </a>
+  <br>
+  <em>My first Figma Design.<br>(click to enlarge)</em>
+</p>
+
+</details>
+
 
 </details>
 
