@@ -276,35 +276,45 @@ Because of this, I collaborated with [Bea](https://github.com/BumbleBeaa), who w
 
 [Bea](https://github.com/BumbleBeaa) would make the Figma Designs, and I'd turn them into the WPF's with the help of Claude, and make sure they were functioning.
 
-What Bea had to say:
+**What Bea had to say:**
 
-    "When Owen asked for my help with the wireframe designs for the Filter Generator, and related plugins, I decided to use Figma to create these designs due to its common use in professional settings and the depth of use offered by the service. 
-    
-    When I began, I admittedly had quite limited experience with Figma, having only used it in the past to create very basic examples for designs. However, by making the wireframes for this plugin, I now understand the program on a much deeper level. I used components to create interactive elements, multiple pages linked together to create popups, post-box messages, and such concepts. 
-    
-    I tried my hardest to fit company branding, while still making the design appealing to the eye. In the end, I think that the designs I created were aesthetically pleasing, with the interactive features a good reference point while implementing the final result."
+> "When Owen asked for my help with the wireframe designs for the Filter Generator, and related plugins, I decided to use Figma to create these designs due to its common use in professional settings and the depth of use offered by the service.
+>
+> When I began, I admittedly had quite limited experience with Figma, having only used it in the past to create very basic examples for designs. However, by making the wireframes for this plugin, I now understand the program on a much deeper level. I used components to create interactive elements, multiple pages linked together to create popups, post-box messages, and such concepts.
+>
+> I tried my hardest to fit company branding, while still making the design appealing to the eye. In the end, I think that the designs I created were aesthetically pleasing, with the interactive features a good reference point while implementing the final result."
+>
+> — *[Bea](https://github.com/BumbleBeaa)*
+
 
 > **Note / Disclaimer:** As I said at the beginning, I am only allowed to show off work I've made, so I can only show the Filter Manager I made (Bea still made the Figma Design for this).
 
+
+<p align="center">
+  <a href="images/fitler_manager_winform.png">
+    <img src="images/fitler_manager_winform.png"
+         alt="Initial WinForm Version"
+         title="Click to view full size"
+         width="300">
+  </a>
+  <br>
+  <em>The initial WinForm version (click to enlarge)</em>
+</p>
+
+<p align="center"><b>↓ Redesigned and converted to WPF ↓</b></p>
 
 <div align="center">
 <table>
   <tr>
     <td align="center">
-      <a href="images/fitler_manager_winform.png">
-        <img src="images/fitler_manager_winform.png" alt="Initial WinForm Version" width="250">
-      </a>
-      <br><em>Initial WinForm Version</em>
-    </td>
-    <td align="center">
       <a href="images/figma+wpf/bea_filter_manager_figma.png">
-        <img src="images/figma+wpf/bea_filter_manager_figma.png" alt="The Figma Design Bea Created" width="250">
+        <img src="images/figma+wpf/bea_filter_manager_figma.png" alt="The Figma design Bea created" width="350">
       </a>
       <br><em>Bea's Figma Design</em>
     </td>
     <td align="center">
       <a href="images/figma+wpf/bea_filter_manager_wpf.png">
-        <img src="images/figma+wpf/bea_filter_manager_wpf.png" alt="The Final WPF" width="250">
+        <img src="images/figma+wpf/bea_filter_manager_wpf.png" alt="The final WPF" width="350">
       </a>
       <br><em>The Final WPF Design</em>
     </td>
