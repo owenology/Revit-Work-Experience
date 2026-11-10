@@ -12,10 +12,14 @@ My job was to create something called "[add-ins](https://revizto.com/resources/b
 
 Essentially, an add-in can turn a longer task (requiring multiple clicks / edits) into a much shorter one (making it a couple clicks / more efficient).
 
+<div id="table">
+
 | # | Entry |
 |:-:|-------|
 | 1 | [Initial Work](#start) |
 | 2 | [Filter Manager](#filter_man) |
+
+</div>
 
 
 > **Note:** I cannot show my code for these add-ins due to a Non-Disclosure Agreement I signed, however I am allowed to show off pictures of each piece of work I did and explain what they do (I was told I was allowed to do this by the person who owns the codebase for these add-ins).
@@ -75,38 +79,26 @@ Filters are applied per view, so the same model can look different depending on 
 
 **Explanation of what the "Filter Manager" would consist of:**
 
-The Filter Manager (originally called the "Filter Generator") is an add-in that lets engineers set up and edit the filters inside Revit's View Templates from one window, instead of going through Revit's own menus filter by filter.
+The Filter Manager is an add-in which enabled engineers to set up and edit the filters inside Revit's View Templates from a single window, not having to go through the Revit menus filter by filter.
 
-A **View Template** is a saved set of display settings that can be applied to many views at once, so every drawing of the same type looks consistent. Filters are stored inside these templates, which means changing a filter's appearance normally means opening each template and editing every filter by hand.
+A **View Template** is a saved set of display settings that can be applied to many views simultaneously, so every drawing of the same type looks consistent. Filters are stored in View Templates, thus editing filter display properties requires opening every template and editing filters manually.
 
 The Filter Manager works in these steps:
 
-1. **Choose a template**: The user selects the View Template Type and subsequently the specific template to be edited.
-2. **Choose a filter**: From the filters contained within the template, the user selects the specific filter (or rule) they wish to edit.
-3. **Match it to the company colour list**: The add-in searches for the filter name within an Excel file that contains the list of filter names used across the company, along with their corresponding RGB color values. The relevant color is displayed in a colored box, allowing the user to immediately see which color should be assigned to the filter.
+1. **Choosing a template**: The user chooses the View Template Type and subsequently a particular template to be edited.
+2. **Choosing a filter**: The user chooses the filter they want to edit form the list of filters that are present in the template.
+3. **Match it to the company colour list**: The add-in finds the name of the chosen filter in an Excel file that contains the list of filter names used across the company, along with their corresponding RGB colour values. The relevant colour is displayed in a coloured box, allowing the user to immediately see which colour should be assigned to the filter.
 4. **View and edit the filter's settings**: The add-in retrieves the current filter settings from Revit and allows the user to adjust them, including:
-   - Foreground pattern and color
-   - Background pattern and color
-   - Line pattern, color, and weight
-   - Transparency
-   - Status (enabled/visible) as well as the display of foreground and background patterns
-5. **Apply to multiple filters**: the user can select several filters at once and save all of these settings to every one of them in a single action.
-
-1. **Select Template**: The user selects the View Template Type and subsequently the specific template to be edited.
-2. **Select Filter**: From the filters contained within the template, the user selects the specific filter (or rule) they wish to edit.
-3. **Cross-reference with the company-wide color list**: The add-in searches for the filter name within an Excel file that contains the list of filter names used across the company, along with their corresponding RGB color values. The relevant color is displayed in a colored box, allowing the user to immediately see which color should be assigned to the filter.
-4. **View and edit filter settings**: The add-in retrieves the current filter settings from Revit and allows the user to adjust them, including:
-   - Foreground pattern and color
-   - Background pattern and color
-   - Line pattern, color, and weight
+   - Foreground pattern and colour
+   - Background pattern and colour
+   - Line pattern, colour, and weight
    - Transparency
    - Status (enabled/visible) as well as the display of foreground and background patterns
 5. **Apply to multiple filters**: The user can select several filters simultaneously and apply settings to all of them in a single step.
 
-By combining information from Revit with data from an Excel file, the "Filter Manager" ensures that filter colors consistently adhere to company standards. Furthermore, it streamlines a time-consuming, repetitive process, reducing it to just a few mouse clicks.
+By combining information from Revit with data from an Excel file, the "Filter Manager" ensures that filter colours consistently adhere to company standards. Furthermore, it streamlines a time-consuming, repetitive process, reducing it to just a few mouse clicks.
 
-Because it combines information from both Revit and the Excel file, the Filter Manager keeps the filter colours consistent with the company's standards, and it turns a long, repetitive task into a few clicks.
-
+_[back to top]_(#table)
 
 </details>
 
