@@ -287,6 +287,7 @@ Because of this, I collaborated with [Bea](https://github.com/BumbleBeaa), who w
 > — *[Bea](https://github.com/BumbleBeaa)*
 
 
+
 > **Note / Disclaimer:** As I said at the beginning, I am only allowed to show off work I've made, so I can only show the Filter Manager I made (Bea still made the Figma Design for this).
 
 
@@ -332,6 +333,8 @@ Because of this, I collaborated with [Bea](https://github.com/BumbleBeaa), who w
 Me and Bea worked to transform 13 other WinForms in WPF, all with the same process.
 
 I'd like to thank Bea for helping by designing the WPF's in Figma, as I would not have come close to finishing all of them by myself, and am not nearly as skilled at Figma as you have become.
+
+_[back to top](#top)_
 
 </details>
 
