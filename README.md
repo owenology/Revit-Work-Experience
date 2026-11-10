@@ -27,6 +27,7 @@ Work experience completed for my [T-Level in Digital Software Development](https
 3. [Filter Manager](#2-filter-manager)
 4. [Dates attended](#dates)
 
+---
 
 <summary><h2 id="about-the-company-and-my-role">About the company and my role:</h2></summary>
 
@@ -41,9 +42,10 @@ Essentially, an add-in can turn a longer task (requiring multiple clicks / edits
 
 </div>
 
+---
 
 <details open>
-<summary><h2 id=1-copy-parameters">Copy Parameters:</h2></summary>
+<summary><h2 id="1-copy-parameters">Copy Parameters:</h2></summary>
 
 Since I was just getting into Revit, I started by developing A "Copy Parameters" add-in for Revit. 
 
@@ -77,6 +79,8 @@ However, I did eventually persevere after exploring through the pre-existing cod
 
 _[back to top](#top)_
 </details>
+
+---
 
 <details open>
 <summary><h2 id="2-filter-manager">Filter Manager:</h2></summary>
@@ -138,6 +142,8 @@ By combining information from Revit with data from an Excel file, the "Filter Ma
 _[back to top](#top)_
 </details>
 
+---
+
 <details>
 <summary><h3 id="dates">Exact Dates:</h3></summary>
 
@@ -162,3 +168,5 @@ _[back to top](#top)_
 </details>
 
 _[back to top](#top)_
+
+---
