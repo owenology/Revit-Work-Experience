@@ -248,24 +248,27 @@ So, I began by using [Figma](https://www.figma.com/) to design what I think the 
     <img src="images/figma+wpf/project_builder_figma.png"
          alt="The Initial Figma Design"
          title="My Initial Figma Design"
-         width="500">
+         width="700">
   </a>
   <br>
   <em>My first Figma Design.<br>(click to enlarge)</em>
 </p>
 
+
 This design was used more like a structure than a finalised design. I gave this To Claude, told it what each part should do and to make the colourscheme more professional-looking, but to keep its structure.
+
 This is what Claude produced:
+
 
 <p align="center">
   <a href="images/figma+wpf/project_builder_wpf.png">
     <img src="images/figma+wpf/project_builder_wpf.png"
-         alt="The Initial Figma Design"
-         title="My Initial Figma Design"
-         width="500">
+         alt="Initial WPF"
+         title="Initial WPF"
+         width="700">
   </a>
   <br>
-  <em>My first Figma Design.<br>(click to enlarge)</em>
+  <em>My first WPF.<br>(click to enlarge)</em>
 </p>
 
 </details>
