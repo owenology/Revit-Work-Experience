@@ -196,12 +196,8 @@ _[back to top](#top)_
 ---
 
 <details open>
-<<<<<<< HEAD
 <summary><h2 id="3-wpf">Converting Window's Forms into WPFs<br><small>(Windows Presentation Foundations)</small></h2></summary>
 
-=======
-<summary><h2 id="3-wpf">Converting Window's Forms into WPFs (Windows Presentation Foundations)</h2></summary>
->>>>>>> 2db776b075fbe8a5230a901971e7dccaab56a008
 
 <details open>
 <summary><h3>Explanation of what WinForms and WPF are:</h3></summary>
