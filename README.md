@@ -98,7 +98,7 @@ The Filter Manager works in these steps:
 
 By combining information from Revit with data from an Excel file, the "Filter Manager" ensures that filter colours consistently adhere to company standards. Furthermore, it streamlines a time-consuming, repetitive process, reducing it to just a few mouse clicks.
 
-_[back to top]_(#table)
+_[back to top](#table)_
 
 </details>
 
