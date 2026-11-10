@@ -6,6 +6,8 @@ Work experience completed for my [T-Level in Digital Software Development](https
  
 <div align="center">
 
+
+| | |
 |---|---|
 | **Placement** | Engineering consultancy (building services: mechanical and electrical) |
 | **Software** | [Autodesk Revit](https://www.autodesk.com/uk/products/revit/overview) |
