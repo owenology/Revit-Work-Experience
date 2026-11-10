@@ -325,6 +325,13 @@ Because of this, I collaborated with [Bea](https://github.com/BumbleBeaa), who w
 
 </details>
 
+--- 
+
+** After this:**
+
+Me and Bea worked to transform 13 other WinForms in WPF, all with the same process.
+
+I'd like to thank Bea for helping by designing the WPF's in Figma, as I would not have come close to finishing all of them by myself, and am not nearly as skilled at Figma as you have become.
 
 </details>
 
