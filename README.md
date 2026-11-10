@@ -25,7 +25,8 @@ Work experience completed for my [T-Level in Digital Software Development](https
 1. [About the company and my role](about-the-company-and-my-role)
 2. [Copy Parameters](#1-copy-parameters)
 3. [Filter Manager](#2-filter-manager)
-4. [Dates attended](#dates)
+4. [Converting Winforms to WPFs](#3-wpf)
+5. [Dates attended](#dates)
 
 ---
 
@@ -142,19 +143,31 @@ By combining information from Revit with data from an Excel file, the "Filter Ma
 
 > **Note / Disclaimer:** I utilised AI to help create this add-in, being in once a week caused a bit of a struggle to learn Revit's API, and the only way I'd get this done in a reasonable timeframe (that'd keep me sane) in my personal opinion was to utilise AI, specifically ChatGPT.
 
-<p align="center">
-  <a href="images/fitler_manager_winform.png">
-    <img src="images/fitler_manager_winform.png" alt="The main Filter Manager window" width="250">
-  </a>
-  <a href="images/filter_manager_confirm.png">
-    <img src="images/filter_manager_confirm.png" alt="The Select Filters to Save to window" width="250">
-  </a>
-  <a href="images/filter_manager_create.png">
-    <img src="images/filter_manager_create.png" alt="The Create Filter window" width="250">
-  </a>
-  <br>
-  <em>The Main Filter Manager Window, The "Select Filters to Save to" Window and The "Create Filter" Window (click to enlarge individual image)</em>
-</p>
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <a href="images/fitler_manager_winform.png">
+        <img src="images/fitler_manager_winform.png" alt="The 'Main Filter Manager' Window" width="250">
+      </a>
+      <br><em>Main window</em>
+    </td>
+    <td align="center">
+      <a href="images/filter_manager_confirm.png">
+        <img src="images/filter_manager_confirm.png" alt="The 'Select Filters to Save to' Window" width="250">
+      </a>
+      <br><em>Select Filters to Save to</em>
+    </td>
+    <td align="center">
+      <a href="images/filter_manager_create.png">
+        <img src="images/filter_manager_create.png" alt="The 'Create Filter' Window" width="250">
+      </a>
+      <br><em>Create Filter</em>
+    </td>
+  </tr>
+</table>
+<em>Click any image to enlarge</em>
+</div>
 
 I built the Filter Manager as a Windows Forms (WinForm) window, it ended up being made of three WinForm windows:
 
@@ -168,7 +181,7 @@ Some of the main parts I worked on:
 
 - **Search boxes**: with hundreds of templates and filters in a model, scrolling through a dropdown is slow, so I added search boxes that narrow the lists as the user types.
 
-- **Reading from Excel**: the add-in opens the company's Excel file of filter names and RGB colours, finds the matching filter and shows its colour in a box. The colour values in the spreadsheet weren't always written the same way (some used commas, others dashes or spaces), so I wrote it to handle all of them. If the Excel file can't be found, the add-in asks the user to locate it and remembers where it is for next time.
+- **Reading from Excel**: the add-in opens the company's Excel file of filter names and RGB colours, finds the matching filter and shows its colour in a box. The colour values in the spreadsheet weren't always written the same way (some used commas, others dashes or spaces), so I made it handle all of them. If the Excel file can't be found, the add-in asks the user to locate it and remembers where it is for next time.
 
 - **Editing the settings**: each colour has three buttons: pick a new colour, revert to the original, or clear it (no override). Each pattern dropdown has a "No Override" option, and there are boxes for transparency, line weight, halftone and visibility.
 
@@ -178,6 +191,44 @@ Some of the main parts I worked on:
 </details>
 
 _[back to top](#top)_
+</details>
+
+---
+
+<details open>
+<summary><h2 id="3-wpf">Converting Window's Forms into WPFs<br><small>(Windows Presentation Foundations)</h2></summary>
+
+
+<details open>
+<summary><h3>Explanation of what WinForms and WPF are:</h3></summary>
+
+Windows Forms (**WinForms**) and Windows Presentation Foundation (**WPF**) are both Microsoft frameworks for building windows (the boxes, buttons, lists and text fields a user clicks on) for programs that run on Windows. Revit add-ins can use either one to show their windows.
+
+**WinForms** is the older of the two, released in 2002. Each window is built by dragging controls onto a design surface in Visual Studio, and every control is placed at a fixed position and size in pixels. It's quick and simple to use, but windows can look dated, don't resize well, and can appear blurry or squashed on high-resolution screens.
+
+**WPF** is the newer framework, released in 2006. Instead of fixed positions, the layout of a window is written in **XAML** (a markup language similar to HTML), which describes how controls are arranged relative to each other. The window can then stretch and scale cleanly to any size or screen. The look of the window is kept separate from the C# code that makes it work, and styles (colours, fonts, button designs) can be written once and shared across every window, a bit like CSS on a website.
+
+For example, a simple WPF button looks like this in XAML:
+
+    <Button Content="Finish" Width="120" Style="{StaticResource PrimaryButtonStyle}" />
+
+<div align="center">
+
+| | WinForms | WPF |
+|---|---|---|
+| **Released** | 2002 | 2006 |
+| **How the layout is made** | Controls placed at fixed pixel positions | Written in XAML, with controls arranged relative to each other |
+| **Resizing and high-resolution screens** | Can look blurry or misaligned | Scales cleanly |
+| **Styling** | Set on each control one at a time | Shared styles reused across every window |
+| **Look** | Classic, older Windows style | Can be fully customised to look modern |
+| **Learning curve** | Easier to pick up | Harder at first, but more flexible |
+
+</div>
+
+The add-ins in the codebase were originally built with WinForms. They were being converted to WPF so that every window shares the same modern design and works properly on any screen size.
+
+</details>
+
 </details>
 
 ---
