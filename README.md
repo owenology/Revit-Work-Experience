@@ -340,6 +340,21 @@ _[back to top](#top)_
 
 ---
 
+
+<details open>
+<summary><h2 id="last-thoughts">Last Thoughts:</h2></summary>
+
+
+I really liked working here and am very lucky to got a workplacement that has allowed me to do programming in a professional office-based environment surrounded by real Engineers. The person I worked under was really understanding and let me take the lead of certain projects / add-ins, they were really lovely to talk to and ask questions to and supported me when my transport to said workplacement wasn't great (by allowing me to work from home during Winter - Spring time before my transport became more stable). The constant feedback I'd get after producing something was really useful and has definately made me a more resilient coder / developer.
+
+If anyone reads this and knows the place I was working at, I'd highly recommend doing your workplacement for them.
+
+
+</details>
+
+
+---
+
 <details>
 <summary><h3 id="dates">Exact Dates:</h3></summary>
 
@@ -360,6 +375,8 @@ _[back to top](#top)_
 | November 2026 | 3rd, 10th |
 
 </div>
+
+
 
 </details>
 
