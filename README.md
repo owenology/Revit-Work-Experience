@@ -63,7 +63,7 @@ Doing this one by one will take a lot of time, so a Copy Parameters add-in would
 </details>
 
 <details open>
-<summary><h3>**What I learned:**</h3></summary>
+<summary><h3>What I learned:</h3></summary>
 
 
 Working in someone else's codebase was overwhelming at first, especially one built for engineering software I had never used.
@@ -98,7 +98,9 @@ _[back to top](#top)_
 
 After I finished my work on "Copy Parameters", I was assigned to created a "Filter Manager".
 
-**Explanation of what a Filter is in Revit:**
+
+<details open>
+<summary><h3>Explanation of what a Filter is in Revit:</h3></summary>
 
 A filter solves visual clutter in a bust drawing, this is done by picking out objects that match a set of rules and changing how they look in a view.
 
@@ -111,8 +113,12 @@ For example, an engineer could make supply air ducts show in blue and extract ai
 
 Filters are applied per view, so the same model can look different depending on who the drawing is for. Because the rules are based on parameters, the filters update automatically as the model changes: any new duct set to "Supply Air" will turn blue without anyone needing to colour it by hand.
 
+</details>
 
-**Explanation of what the "Filter Manager" would consist of:**
+
+<details open>
+<summary><h3>Explanation of what the "Filter Manager" would consist of:</h3></summary>
+
 
 The Filter Manager is an add-in which enabled engineers to set up and edit the filters inside Revit's View Templates from a single window, not having to go through the Revit menus filter by filter.
 
@@ -133,7 +139,10 @@ The Filter Manager works in these steps:
 
 By combining information from Revit with data from an Excel file, the "Filter Manager" ensures that filter colours consistently adhere to company standards. Furthermore, it streamlines a time-consuming, repetitive process, reducing it to just a few mouse clicks.
 
-**What I learned / did:**
+</details>
+
+<details open>
+<summary><h3>What I learned / did:</h3></summary>
 
 > **Note / Disclaimer:** I utilised AI to help create this add-in, being in once a week caused a bit of a struggle to learn Revit's API, and the only way I'd get this done in a reasonable timeframe (that'd keep me sane) in my personal opinion was to utilise AI, specifically ChatGPT.
 
@@ -149,6 +158,7 @@ By combining information from Revit with data from an Excel file, the "Filter Ma
 </p>
 
 
+</details>
 
 _[back to top](#top)_
 </details>
