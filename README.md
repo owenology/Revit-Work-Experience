@@ -23,8 +23,12 @@ Work experience completed for my [T-Level in Digital Software Development](https
 ## Contents
  
 1. [About the company and my role](about-the-company-and-my-role)
+
+**Work:**
 2. [Copy Parameters](#1-copy-parameters)
 3. [Filter Manager](#2-filter-manager)
+
+
 4. [Dates attended](#dates)
 
 ---
