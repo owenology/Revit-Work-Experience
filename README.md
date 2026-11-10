@@ -23,12 +23,8 @@ Work experience completed for my [T-Level in Digital Software Development](https
 ## Contents
  
 1. [About the company and my role](about-the-company-and-my-role)
-
-**Work:**
 2. [Copy Parameters](#1-copy-parameters)
 3. [Filter Manager](#2-filter-manager)
-
-
 4. [Dates attended](#dates)
 
 ---
@@ -147,16 +143,33 @@ By combining information from Revit with data from an Excel file, the "Filter Ma
 > **Note / Disclaimer:** I utilised AI to help create this add-in, being in once a week caused a bit of a struggle to learn Revit's API, and the only way I'd get this done in a reasonable timeframe (that'd keep me sane) in my personal opinion was to utilise AI, specifically ChatGPT.
 
 <p align="center">
-  <a href="images\fitler_manager_winform.png">
-    <img src="images\fitler_manager_winform.png"
-         alt="The Filter Manager add-in window in Revit"
-         title="Click to view full size"
-         width="300">
+  <a href="images/fitler_manager_winform.png">
+    <img src="images/fitler_manager_winform.png" alt="The main Filter Manager window" width="250">
+  </a>
+  <a href="images/filter_manager_confirm.png">
+    <img src="images/filter_manager_confirm.png" alt="The Select Filters to Save to window" width="250">
+  </a>
+  <a href="images/filter_manager_create.png">
+    <img src="images/filter_manager_create.png" alt="The Create Filter window" width="250">
   </a>
   <br>
-  <em>The Filter Manager add-in, Copy Parameters (click to enlarge)</em>
+  <em>The three Filter Manager windows (click to enlarge)</em>
 </p>
 
+I built the Filter Manager as a Windows Forms (WinForm) window, it ended up being made of three WinForm windows:
+
+1. **The main Filter Manager window** (pictured above), where the user picks a View Template and a filter, then views and edits its settings.
+2. **A "Select Filters to Save to" window**, where the user ticks every filter they want the settings saved to. They can also switch to a different View Template, and the window warns them before switching if it would lose their ticked filters.
+3. **A "Create Filter" window**, which lets the user copy an existing filter under a new name.
+
+Some of the main parts I worked on:
+
+- **Reading from Revit**: collecting every View Template in the model, sorting them by type (floor plans, sections, 3D views, etc.), and loading the filters attached to whichever template is chosen. The window also auto-selects the template of the view the user is currently on, to save them a step.
+- **Search boxes**: with hundreds of templates and filters in a model, scrolling through a dropdown is slow, so I added search boxes that narrow the lists as the user types.
+- **Reading from Excel**: the add-in opens the company's Excel file of filter names and RGB colours, finds the matching filter and shows its colour in a box. The colour values in the spreadsheet weren't always written the same way (some used commas, others dashes or spaces), so I wrote it to handle all of them. If the Excel file can't be found, the add-in asks the user to locate it and remembers where it is for next time.
+- **Editing the settings**: each colour has three buttons: pick a new colour, revert to the original, or clear it (no override). Each pattern dropdown has a "No Override" option, and there are boxes for transparency, line weight, halftone and visibility.
+- **Saving back to Revit**: every change made to the model has to happen inside a Revit "transaction", so the changes are applied together and can be undone in one step.
+- **Tooltips**: the ⓘ icons explain what each setting does, for engineers who don't use filters often.
 
 </details>
 
