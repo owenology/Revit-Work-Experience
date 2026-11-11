@@ -341,6 +341,8 @@ _[back to top](#top)_
 ---
 
 
+Note: I cannot show my code for these add-ins due to a Non-Disclosure Agreement I signed, however I am allowed to show off pictures of each piece of work I did and explain what they do (I was told I was allowed to do this by the person who owns the codebase for these add-ins).
+
 <details open>
 <summary><h2 id="last-thoughts">Last Thoughts:</h2></summary>
 
